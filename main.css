@@ -62,3 +62,34 @@ header a {
     visibility: visible;
     transform: scaleX(1);
 }
+
+.country-container {
+    margin-top: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+    gap: 30px;
+}
+
+img {
+    height: 338px;
+    width: 580px;
+    border-radius: 20px;
+}
+
+
+.image-link {
+    text-decoration: none;
+}
+
+.country-name {
+    text-decoration: none;
+    color: white;
+    width: 580px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: black;
+    align-items: center;
+
+}
