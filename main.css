@@ -69,8 +69,10 @@ header a {
     flex-wrap: wrap;
     flex-direction: row;
     height: auto;
+    width: auto;
     gap: 30px;
 }
+
 
 img {
     height: 338px;
@@ -82,14 +84,26 @@ img {
 .image-link {
     text-decoration: none;
 }
+.image-link:hover .country-name-container {
+    background-color: #064F34;
+}
 
-.country-name {
-    text-decoration: none;
-    color: white;
+.country-name-container {
+    margin-top: -15px;
     width: 580px;
     height: 70px;
     border-radius: 20px;
     background-color: black;
-    align-items: center;
+}
+
+.country-name {
+    position: relative;
+    top: 20px;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
 
 }
