@@ -88,8 +88,11 @@ img {
     background-color: #064F34;
 }
 
-/* как сделать затемнение картинок при hover эффекте?  */
 
+
+.image-link:hover .country-image {
+    filter: brightness(70%);
+}
 
 
 .country-name-container {
@@ -125,8 +128,7 @@ img {
     position: relative;
     bottom: -110px;
     height: 1080px;
-    width: 100%; 
-    /* как убрать белые границы и при этом не создавать горизонтальный скролл? */
+    width: 100vw; 
     background-color: #252525;
 }
 
