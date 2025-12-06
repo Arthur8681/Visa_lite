@@ -12,7 +12,7 @@ header {
     top: 0;
     left: 0;
     width: calc(100% - 20px);
-    background-color: black;
+    background-color: #1E1E1E;
     display: flex;
     align-items: center; 
     justify-content: center;
@@ -61,4 +61,115 @@ header a {
 .underline-animation:hover::after {
     visibility: visible;
     transform: scaleX(1);
+}
+
+.image-text {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 30px;
+    left: 80px;
+}
+
+.background-image {
+    margin-top: 83px;
+
+}
+
+.lower-background {
+    background-color: #1E1E1E;
+    height: 505px;
+    width: 100vw;
+    position: relative;
+    bottom: -10px;
+    margin-top: -25px;
+}
+
+
+.line {
+    position: relative;
+    top: 70px;
+    left: 80px;
+    background-color: #A2A2A2;
+    height: 2px;
+    width: 1770px;
+}
+
+
+
+.country-description {
+    position: relative;
+    top: 100px;
+    left: 80px;
+    color: white;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+
+.Register-button {
+    position: relative;
+    height: 65px;
+    width: 269px;
+    background-color: #064F34;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    transition: 0.5s;
+
+}
+
+
+.Register-button:hover {
+    border-color: white;
+}
+
+.Center-button {
+    margin: 0;
+    position: absolute;
+    top: 75%;
+    left: 11%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.Center-button2 {
+    margin: 0;
+    position: absolute;
+    top: 75%;
+    left: 27%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.Center-button3 {
+    margin: 0;
+    position: absolute;
+    top: 75%;
+    left: 43%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.Center-button4 {
+    margin: 0;
+    position: absolute;
+    top: 75%;
+    left: 59%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }

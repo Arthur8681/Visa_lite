@@ -12,7 +12,7 @@ header {
     top: 0;
     left: 0;
     width: calc(100% - 20px);
-    background-color: black;
+    background-color: #1E1E1E;
     display: flex;
     align-items: center; 
     justify-content: center;
@@ -74,12 +74,13 @@ header a {
     font-size: 170%;
     font-family: "Inter", sans-serif;
     font-weight: 900;
+    transition: 0.5s;
 
 }
 
 
 .Register-button:hover {
-    background-color: black;
+    background-color: #1E1E1E;
 }
 
 .Center-button {
@@ -168,7 +169,7 @@ header a {
     position: relative;
     top: 100px;
     left: 850px;
-    color: black;
+    color: #1E1E1E;
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
     font-size: xx-large;
@@ -185,7 +186,7 @@ header a {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: black;
+    background-color: #1E1E1E;
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out;
@@ -193,7 +194,7 @@ header a {
 }
 
 .return:hover {
-    color: black;
+    color: #1E1E1E;
 }
 
 .return:hover::after {
